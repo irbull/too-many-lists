@@ -3,8 +3,9 @@ name: Rust
 on:
   push:
     branches:
-      - 'master'
-      - '!gh-pages'
+      - "master"
+      - "!gh-pages"
+      - "sixth"
   pull_request:
 
 jobs:
